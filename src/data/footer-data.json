@@ -1,0 +1,21 @@
+{
+  "leftLinks": [
+    {
+      "id": "footer-link-1",
+      "label": "@Copyright all rights reserved to 'Test Application' from 2025 onwards.",
+      "type": "button"
+    }
+  ],
+  "rightLinks": [
+    
+    {
+      "id": "footer-link-4",
+      "label": "@Copyright 2025",
+      "type": "button",
+      "badge": {
+        "text": "NEW",
+        "variant": "success"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+// Fix for Recharts ResponsiveContainer warnings
+// Ensures all chart containers have minimum dimensions
+
+.widget-chart-wrapper {
+  min-height: 100px !important;
+  min-width: 100px !important;
+  position: relative;
+  
+  &-lg {
+    min-height: 120px !important;
+  }
+  
+  &-sm {
+    min-height: 80px !important;
+  }
+}
+
+// Ensure ResponsiveContainer parents have dimensions
+[class*="widget-chart"] {
+  position: relative;
+  min-height: 100px;
+  
+  > div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+// Fix for recharts in cards
+.card-body {
+  .recharts-responsive-container {
+    min-height: 100px !important;
+    min-width: 100px !important;
+  }
+}
+
+// Global fix for all ResponsiveContainer instances
+.recharts-responsive-container {
+  min-height: 100px !important;
+  min-width: 100px !important;
+  
+  &[height="100%"] {
+    min-height: 100px !important;
+  }
+}
+
+// Ensure widget-chart-content has proper dimensions
+.widget-chart-content {
+  min-height: 100px;
+  position: relative;
+}
+
+// Fix for chart boxes
+.rm-border {
+  .widget-chart-wrapper {
+    min-height: 120px !important;
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "view": "View Details",
+    "action": "Action",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "refresh": "Refresh"
+  },
+  "messages": {
+    "success": "Operation completed successfully",
+    "error": "An error occurred",
+    "warning": "Please review the information",
+    "info": "Information",
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "noData": "No data available",
+    "loading": "Loading..."
+  },
+  "labels": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "age": "Age",
+    "status": "Status",
+    "visits": "Visits",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "zip": "ZIP Code",
+    "country": "Country",
+    "date": "Date",
+    "time": "Time",
+    "description": "Description",
+    "title": "Title",
+    "name": "Name",
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm Password"
+  },
+  "placeholders": {
+    "search": "Search...",
+    "email": "Enter your email",
+    "password": "Enter your password",
+    "selectOption": "Select an option",
+    "enterText": "Enter text here"
+  },
+  "tooltips": {
+    "edit": "Edit item",
+    "delete": "Delete item",
+    "view": "View details",
+    "download": "Download",
+    "upload": "Upload"
+  },
+  "icons": {
+    "dashboard": "pe-7s-rocket",
+    "users": "pe-7s-users",
+    "settings": "pe-7s-config",
+    "analytics": "pe-7s-graph2",
+    "forms": "pe-7s-note2",
+    "tables": "pe-7s-server",
+    "charts": "pe-7s-graph1",
+    "widgets": "pe-7s-plugin",
+    "components": "pe-7s-browser",
+    "elements": "pe-7s-diamond"
+  },
+  "layoutDimensions": {
+    "headerHeight": "41px",
+    "menuBarPadding": "0.31rem",
+    "footerHeight": "23px"
+  },
+  "layoutColors": {
+    "headerBackground": "#000000",
+    "headerText": "#ffffff",
+    "menuBarBackground": "#1e5a8e",
+    "menuBarText": "rgba(255, 255, 255, 0.9)",
+    "menuBarActiveBackground": "#ffffff",
+    "menuBarActiveText": "#1e5a8e",
+    "footerBackground": "#000000",
+    "footerText": "#ffffff"
+  },
+  "statusBadges": {
+    "completed": {
+      "label": "Completed",
+      "class": "bg-success"
+    },
+    "pending": {
+      "label": "Pending",
+      "class": "bg-warning"
+    },
+    "onHold": {
+      "label": "On Hold",
+      "class": "bg-info"
+    },
+    "cancelled": {
+      "label": "Cancelled",
+      "class": "bg-danger"
+    },
+    "active": {
+      "label": "Active",
+      "class": "bg-primary"
+    },
+    "inactive": {
+      "label": "Inactive",
+      "class": "bg-secondary"
+    }
+  },
+  "colors": {
+    "primary": "#3f6ad8",
+    "secondary": "#6c757d",
+    "success": "#3ac47d",
+    "danger": "#d92550",
+    "warning": "#f7b924",
+    "info": "#16aaff",
+    "light": "#f8f9fa",
+    "dark": "#343a40",
+    "white": "#ffffff",
+    "black": "#000000"
+  },
+  "classNames": {
+    "cardHeaderTab": "card-header-tab",
+    "btnShadow": "btn-shadow",
+    "btnWide": "btn-wide",
+    "btnPill": "btn-pill",
+    "btnIconOnly": "btn-icon-only",
+    "badge": "badge",
+    "avatarIcon": "avatar-icon",
+    "widgetContent": "widget-content",
+    "profileBlock": "profile-block",
+    "dropdownMenuHeader": "dropdown-menu-header"
+  }
+}

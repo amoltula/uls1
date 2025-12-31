@@ -1,0 +1,152 @@
+/* Application Header Wrapper */
+.app-header-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Application Header Title Styles */
+.app-header-left__title {
+  display: flex !important;
+  align-items: center;
+  margin-right: 1.5rem;
+  margin-left: 10px;
+  flex-shrink: 0;
+  padding-left: 0;
+
+  h5 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+    color: #ffffff !important;
+    text-shadow: none;
+    white-space: nowrap;
+    margin: 0;
+  }
+}
+
+/* Top Menu Bar Styles */
+.app-header-menu {
+  background: #1e5a8e;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 9;
+  width: 100%;
+
+  .app-header-menu__content {
+    padding: 0;
+    width: 100%;
+
+    .nav {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      .nav-item {
+        display: flex;
+
+        .nav-link {
+          display: flex;
+          align-items: center;
+          padding: 0.31rem 1.5rem; // Vertical padding configurable via LAYOUT_DIMENSIONS.MENU_BAR_PADDING
+          color: rgba(255, 255, 255, 0.9); // Configurable via LAYOUT_COLORS.MENU_BAR_TEXT
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 0.95rem;
+          transition: all 0.3s ease;
+          position: relative;
+          border: none;
+          border-bottom: 3px solid transparent !important;
+          box-shadow: none !important;
+          outline: none !important;
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.15); // Semi-transparent hover effect
+            color: #ffffff !important; // Keep text white on hover
+            border-bottom-color: #ffffff !important; // White bottom border on hover
+            transform: translateY(-2px); // Slight lift effect
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; // Subtle shadow
+          }
+
+          &.active {
+            background: #ffffff !important; // Configurable via LAYOUT_COLORS.MENU_BAR_ACTIVE_BACKGROUND
+            color: #1e5a8e !important; // Configurable via LAYOUT_COLORS.MENU_BAR_ACTIVE_TEXT
+            border: none !important;
+            box-shadow: none !important;
+            outline: none !important;
+
+            &::before,
+            &::after {
+              display: none !important;
+            }
+          }
+
+          &:focus,
+          &:focus-visible {
+            box-shadow: none !important;
+            outline: none !important;
+          }
+
+          i {
+            font-size: 1.2rem;
+          }
+
+          span {
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .app-header-left__title {
+    display: none;
+  }
+
+  .app-header-menu {
+    .app-header-menu__content {
+      .nav {
+        flex-wrap: wrap;
+
+        .nav-item {
+          .nav-link {
+            padding: 0.75rem 1rem;
+            font-size: 0.875rem;
+
+            span {
+              display: none;
+            }
+
+            i {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .app-header-menu {
+    .app-header-menu__content {
+      .nav {
+        justify-content: space-around;
+
+        .nav-item {
+          flex: 1;
+          text-align: center;
+
+          .nav-link {
+            padding: 0.5rem;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

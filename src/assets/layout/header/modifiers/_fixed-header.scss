@@ -1,0 +1,32 @@
+// Fixed Header
+
+.fixed-header {
+  .app-header-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .app-header {
+    position: relative;
+    width: 100%;
+
+    .app-header__logo {
+      visibility: visible !important;
+      display: flex !important;
+    }
+  }
+
+  .app-main {
+    padding-top: calc($app-header-height + 50px);
+  }
+
+  &:not(.fixed-sidebar):not(.closed-sidebar) {
+    .app-sidebar {
+      .app-header__logo {
+        visibility: hidden;
+      }
+    }
+  }
+}

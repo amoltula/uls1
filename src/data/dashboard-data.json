@@ -1,0 +1,235 @@
+{
+  "analytics": {
+    "metrics": [
+      {
+        "id": 1,
+        "title": "Total Sales",
+        "value": 368,
+        "prefix": "$",
+        "suffix": "K",
+        "trend": "up",
+        "trendValue": 12.5,
+        "icon": "pe-7s-cart",
+        "color": "success"
+      },
+      {
+        "id": 2,
+        "title": "Total Revenue",
+        "value": 1245,
+        "prefix": "$",
+        "suffix": "K",
+        "trend": "up",
+        "trendValue": 8.3,
+        "icon": "pe-7s-cash",
+        "color": "primary"
+      },
+      {
+        "id": 3,
+        "title": "Total Orders",
+        "value": 2567,
+        "prefix": "",
+        "suffix": "",
+        "trend": "down",
+        "trendValue": 3.2,
+        "icon": "pe-7s-box2",
+        "color": "warning"
+      },
+      {
+        "id": 4,
+        "title": "Total Leads",
+        "value": 147,
+        "prefix": "",
+        "suffix": "",
+        "trend": "up",
+        "trendValue": 15.7,
+        "icon": "pe-7s-users",
+        "color": "info"
+      },
+      {
+        "id": 5,
+        "title": "Conversion Rate",
+        "value": 54,
+        "prefix": "",
+        "suffix": "%",
+        "trend": "up",
+        "trendValue": 5.1,
+        "icon": "pe-7s-graph2",
+        "color": "success"
+      },
+      {
+        "id": 6,
+        "title": "Income",
+        "value": 147,
+        "prefix": "$",
+        "suffix": "",
+        "trend": "neutral",
+        "trendValue": 0,
+        "icon": "pe-7s-wallet",
+        "color": "focus"
+      }
+    ],
+    "chartData": {
+      "sales": [
+        { "name": "Page A", "uv": 4000, "pv": 2400, "amt": 2400 },
+        { "name": "Page B", "uv": 3000, "pv": 1398, "amt": 2210 },
+        { "name": "Page C", "uv": 2000, "pv": 9800, "amt": 2290 },
+        { "name": "Page D", "uv": 2780, "pv": 3908, "amt": 2000 },
+        { "name": "Page E", "uv": 1890, "pv": 4800, "amt": 2181 },
+        { "name": "Page F", "uv": 2390, "pv": 3800, "amt": 2500 },
+        { "name": "Page G", "uv": 3490, "pv": 4300, "amt": 2100 }
+      ],
+      "revenue": [
+        { "month": "Jan", "value": 4000 },
+        { "month": "Feb", "value": 3000 },
+        { "month": "Mar", "value": 2000 },
+        { "month": "Apr", "value": 2780 },
+        { "month": "May", "value": 1890 },
+        { "month": "Jun", "value": 2390 },
+        { "month": "Jul", "value": 3490 }
+      ]
+    },
+    "progressData": [
+      {
+        "id": 1,
+        "label": "Expenses",
+        "value": 54,
+        "color": "info",
+        "subtitle": "Expected totals"
+      },
+      {
+        "id": 2,
+        "label": "Revenue",
+        "value": 76,
+        "color": "success",
+        "subtitle": "Monthly target"
+      },
+      {
+        "id": 3,
+        "label": "Tasks Completed",
+        "value": 82,
+        "color": "primary",
+        "subtitle": "Project progress"
+      }
+    ]
+  },
+  "crm": {
+    "leads": [
+      {
+        "id": 1,
+        "name": "Ruben Tillman",
+        "title": "Senior Developer",
+        "location": "Berlin",
+        "status": "completed",
+        "statusClass": "bg-success",
+        "avatar": "avatars/1.jpg",
+        "sparklineData": [5, 10, 5, 20, 8, 15, 12, 18, 10, 15]
+      },
+      {
+        "id": 2,
+        "name": "Ella-Rose Henry",
+        "title": "Web Developer",
+        "location": "London",
+        "status": "pending",
+        "statusClass": "bg-warning",
+        "avatar": "avatars/2.jpg",
+        "sparklineData": [8, 12, 10, 18, 14, 20, 16, 22, 18, 20]
+      },
+      {
+        "id": 3,
+        "name": "Vinnie Wagstaff",
+        "title": "UI Designer",
+        "location": "Amsterdam",
+        "status": "onHold",
+        "statusClass": "bg-info",
+        "avatar": "avatars/4.jpg",
+        "sparklineData": [12, 18, 14, 22, 18, 25, 20, 28, 22, 25]
+      }
+    ],
+    "highlights": [
+      {
+        "id": 1,
+        "name": "Ella-Rose Henry",
+        "title": "Web Developer",
+        "avatar": "avatars/1.jpg",
+        "amount": 129,
+        "trend": "down"
+      },
+      {
+        "id": 2,
+        "name": "John Rosenberg",
+        "title": "Lead Developer",
+        "avatar": "avatars/2.jpg",
+        "amount": 156,
+        "trend": "up"
+      },
+      {
+        "id": 3,
+        "name": "Sarah Johnson",
+        "title": "Product Manager",
+        "avatar": "avatars/3.jpg",
+        "amount": 98,
+        "trend": "up"
+      }
+    ]
+  },
+  "sales": {
+    "summary": {
+      "totalSales": 2567,
+      "totalRevenue": 125400,
+      "averageOrderValue": 48.86,
+      "conversionRate": 3.24
+    },
+    "topProducts": [
+      {
+        "id": 1,
+        "name": "Product A",
+        "sales": 450,
+        "revenue": 22500
+      },
+      {
+        "id": 2,
+        "name": "Product B",
+        "sales": 380,
+        "revenue": 19000
+      },
+      {
+        "id": 3,
+        "name": "Product C",
+        "sales": 320,
+        "revenue": 16000
+      }
+    ]
+  },
+  "widgets": {
+    "notifications": [
+      {
+        "id": 1,
+        "title": "System Update",
+        "message": "A new update is available",
+        "type": "info",
+        "timestamp": "2024-01-15T10:30:00Z"
+      },
+      {
+        "id": 2,
+        "title": "New Message",
+        "message": "You have 3 new messages",
+        "type": "primary",
+        "timestamp": "2024-01-15T11:45:00Z"
+      }
+    ],
+    "activities": [
+      {
+        "id": 1,
+        "user": "John Doe",
+        "action": "created a new task",
+        "timestamp": "2 hours ago"
+      },
+      {
+        "id": 2,
+        "user": "Jane Smith",
+        "action": "updated the project",
+        "timestamp": "4 hours ago"
+      }
+    ]
+  }
+}

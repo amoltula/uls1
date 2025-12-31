@@ -1,0 +1,125 @@
+// Header Base
+
+.app-header {
+  height: $app-header-height;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  z-index: 10;
+  transition: all .2s;
+  // Colors configurable via LAYOUT_COLORS.HEADER_BACKGROUND and HEADER_TEXT
+  background: #000000 !important;
+  color: #ffffff !important;
+
+  &.header-shadow {
+    box-shadow: $box-shadow-default;
+  }
+
+  .app-header__content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    padding: 0 $layout-spacer-x 0 0;
+    height: $app-header-height;
+
+    .app-header-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .app-header-right {
+      align-items: center;
+      display: flex;
+      margin-left: auto;
+    }
+  }
+
+  .header-user-info {
+    & > .widget-heading,
+    & > .widget-subheading {
+      white-space: nowrap;
+    }
+
+    & > .widget-subheading {
+      font-size: $font-size-xs;
+    }
+  }
+}
+
+.app-header__logo {
+  padding: 0 0 0 15px;
+  height: $app-header-height;
+  width: auto;
+  min-width: auto;
+  max-width: 120px;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  transition: width .2s;
+  visibility: visible !important;
+  flex-shrink: 0;
+  margin-right: 0;
+
+  .logo-container {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    width: auto;
+    min-width: 60px;
+    max-width: 100px;
+    max-height: 40px;
+
+    .logo-img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .logo-text {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #3f6ad8;
+      white-space: nowrap;
+    }
+  }
+
+  .logo-src {
+    height: $logo-height;
+    width: $logo-width;
+    background: url('../../../assets/utils/images/logo-inverse.png');
+  }
+
+  .Burger {
+    padding: 0 8px;
+    margin-left: auto;
+  }
+}
+
+.app-header__menu,
+.app-header__mobile-menu {
+  display: none;
+  padding: 0 $layout-spacer-x;
+  height: $app-header-height;
+  align-items: center;
+}
+
+// Header Modifiers
+
+@import "modifiers/fixed-header";
+@import "modifiers/header-dots";
+@import "modifiers/header-megamenu";
+@import "modifiers/header-buttons";
+//@import "modifiers/header-horizontal";
+
+// Header Themes
+
+@import "themes/header-light";
+@import "themes/header-dark";
+//@import "themes/header-inverted";

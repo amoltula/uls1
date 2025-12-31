@@ -1,0 +1,41 @@
+{
+  "applicationName": "Test Application",
+  "topMenuItems": [
+    {
+      "id": "menu-dashboard",
+      "label": "Dashboard",
+      "path": "/dashboards/basic",
+      "icon": "pe-7s-rocket"
+    },
+    {
+      "id": "menu-elements",
+      "label": "Elements",
+      "path": "/elements/buttons-standard",
+      "icon": "pe-7s-diamond"
+    },
+    {
+      "id": "menu-components",
+      "label": "Components",
+      "path": "/components/tabs",
+      "icon": "pe-7s-car"
+    },
+    {
+      "id": "menu-forms",
+      "label": "Forms",
+      "path": "/forms/controls",
+      "icon": "pe-7s-note2"
+    },
+    {
+      "id": "menu-tables",
+      "label": "Tables",
+      "path": "/tables/data-tables",
+      "icon": "pe-7s-display2"
+    },
+    {
+      "id": "menu-charts",
+      "label": "Charts",
+      "path": "/charts/chartjs",
+      "icon": "pe-7s-graph2"
+    }
+  ]
+}

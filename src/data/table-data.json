@@ -1,0 +1,107 @@
+{
+  "tableColumns": {
+    "standard": [
+      {
+        "id": "firstName",
+        "name": "First Name",
+        "selector": "firstName",
+        "sortable": true,
+        "width": "150px"
+      },
+      {
+        "id": "lastName",
+        "name": "Last Name",
+        "selector": "lastName",
+        "sortable": true,
+        "width": "150px"
+      },
+      {
+        "id": "age",
+        "name": "Age",
+        "selector": "age",
+        "sortable": true,
+        "width": "100px"
+      },
+      {
+        "id": "status",
+        "name": "Status",
+        "selector": "status",
+        "sortable": true,
+        "width": "120px"
+      },
+      {
+        "id": "visits",
+        "name": "Visits",
+        "selector": "visits",
+        "sortable": true,
+        "width": "100px"
+      }
+    ],
+    "users": [
+      {
+        "id": "name",
+        "name": "Name",
+        "selector": "name",
+        "sortable": true
+      },
+      {
+        "id": "email",
+        "name": "Email",
+        "selector": "email",
+        "sortable": true
+      },
+      {
+        "id": "role",
+        "name": "Role",
+        "selector": "role",
+        "sortable": true
+      },
+      {
+        "id": "department",
+        "name": "Department",
+        "selector": "department",
+        "sortable": true
+      },
+      {
+        "id": "status",
+        "name": "Status",
+        "selector": "status",
+        "sortable": true
+      }
+    ]
+  },
+  "tableSettings": {
+    "pagination": {
+      "enabled": true,
+      "rowsPerPage": 10,
+      "rowsPerPageOptions": [5, 10, 15, 20, 25, 50, 100]
+    },
+    "fixedHeader": {
+      "enabled": true,
+      "scrollHeight": "400px"
+    },
+    "responsive": true,
+    "highlightOnHover": true,
+    "striped": false,
+    "dense": false
+  },
+  "sampleData": {
+    "statusOptions": ["single", "relationship", "complicated"],
+    "departments": ["Engineering", "Sales", "Marketing", "HR", "Finance", "Operations"],
+    "roles": ["Admin", "Manager", "Developer", "Designer", "Analyst", "Coordinator"],
+    "firstNames": [
+      "James", "Mary", "John", "Patricia", "Robert", "Jennifer", "Michael", "Linda",
+      "William", "Elizabeth", "David", "Barbara", "Richard", "Susan", "Joseph", "Jessica",
+      "Thomas", "Sarah", "Charles", "Karen", "Emma", "Oliver", "Ava", "Elijah", "Sophia",
+      "Lucas", "Isabella", "Mason", "Mia", "Logan", "Charlotte", "Alexander", "Amelia",
+      "Ethan", "Harper", "Jacob", "Evelyn", "Liam", "Abigail", "Noah", "Emily"
+    ],
+    "lastNames": [
+      "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis",
+      "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson",
+      "Thomas", "Taylor", "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson",
+      "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker",
+      "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", "Hill", "Flores"
+    ]
+  }
+}

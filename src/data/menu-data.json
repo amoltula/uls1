@@ -1,0 +1,454 @@
+{
+  "navigation": [
+    {
+      "id": 1,
+      "label": "Dashboards",
+      "icon": "pe-7s-rocket",
+      "to": "/dashboards",
+      "children": [
+        {
+          "id": 11,
+          "label": "Analytics",
+          "to": "/dashboards/analytics"
+        },
+        {
+          "id": 12,
+          "label": "Commerce",
+          "to": "/dashboards/commerce"
+        },
+        {
+          "id": 13,
+          "label": "Sales",
+          "to": "/dashboards/sales"
+        },
+        {
+          "id": 14,
+          "label": "CRM",
+          "to": "/dashboards/crm"
+        },
+        {
+          "id": 15,
+          "label": "Minimal",
+          "to": "/dashboards/minimal"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Pages",
+      "icon": "pe-7s-browser",
+      "to": "/pages",
+      "children": [
+        {
+          "id": 21,
+          "label": "Login",
+          "to": "/pages/login"
+        },
+        {
+          "id": 22,
+          "label": "Login Boxed",
+          "to": "/pages/login-boxed"
+        },
+        {
+          "id": 23,
+          "label": "Register",
+          "to": "/pages/register"
+        },
+        {
+          "id": 24,
+          "label": "Register Boxed",
+          "to": "/pages/register-boxed"
+        },
+        {
+          "id": 25,
+          "label": "Forgot Password",
+          "to": "/pages/forgot-password"
+        },
+        {
+          "id": 26,
+          "label": "Forgot Password Boxed",
+          "to": "/pages/forgot-password-boxed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Applications",
+      "icon": "pe-7s-mouse",
+      "to": "/apps",
+      "children": [
+        {
+          "id": 31,
+          "label": "Chat",
+          "to": "/apps/chat"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Forms",
+      "icon": "pe-7s-note2",
+      "to": "/forms",
+      "children": [
+        {
+          "id": 41,
+          "label": "Controls",
+          "to": "/forms/controls"
+        },
+        {
+          "id": 42,
+          "label": "Layouts",
+          "to": "/forms/layouts"
+        },
+        {
+          "id": 43,
+          "label": "Validation",
+          "to": "/forms/validation"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Widgets",
+      "icon": "pe-7s-graph2",
+      "to": "/widgets",
+      "children": [
+        {
+          "id": 51,
+          "label": "Chart Boxes",
+          "to": "/widgets/chart-boxes"
+        },
+        {
+          "id": 52,
+          "label": "Chart Boxes 2",
+          "to": "/widgets/chart-boxes-2"
+        },
+        {
+          "id": 53,
+          "label": "Chart Boxes 3",
+          "to": "/widgets/chart-boxes-3"
+        },
+        {
+          "id": 54,
+          "label": "Profile Boxes",
+          "to": "/widgets/profile-boxes"
+        },
+        {
+          "id": 55,
+          "label": "Content Boxes",
+          "to": "/widgets/content-boxes"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Elements",
+      "icon": "pe-7s-diamond",
+      "to": "/elements",
+      "children": [
+        {
+          "id": 61,
+          "label": "Buttons",
+          "to": "/elements/buttons"
+        },
+        {
+          "id": 62,
+          "label": "Dropdowns",
+          "to": "/elements/dropdowns"
+        },
+        {
+          "id": 63,
+          "label": "Icons",
+          "to": "/elements/icons"
+        },
+        {
+          "id": 64,
+          "label": "Badges",
+          "to": "/elements/badges"
+        },
+        {
+          "id": 65,
+          "label": "Cards",
+          "to": "/elements/cards"
+        },
+        {
+          "id": 66,
+          "label": "List Groups",
+          "to": "/elements/list-groups"
+        },
+        {
+          "id": 67,
+          "label": "Timeline",
+          "to": "/elements/timeline"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Components",
+      "icon": "pe-7s-car",
+      "to": "/components",
+      "children": [
+        {
+          "id": 71,
+          "label": "Tabs",
+          "to": "/components/tabs"
+        },
+        {
+          "id": 72,
+          "label": "Accordions",
+          "to": "/components/accordions"
+        },
+        {
+          "id": 73,
+          "label": "Modals",
+          "to": "/components/modals"
+        },
+        {
+          "id": 74,
+          "label": "Progress Bar",
+          "to": "/components/progress-bar"
+        },
+        {
+          "id": 75,
+          "label": "Tooltips & Popovers",
+          "to": "/components/tooltips-popovers"
+        },
+        {
+          "id": 76,
+          "label": "Carousel",
+          "to": "/components/carousel"
+        },
+        {
+          "id": 77,
+          "label": "Calendar",
+          "to": "/components/calendar"
+        },
+        {
+          "id": 78,
+          "label": "Pagination",
+          "to": "/components/pagination"
+        },
+        {
+          "id": 79,
+          "label": "Tree View",
+          "to": "/components/tree-view"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Tables",
+      "icon": "pe-7s-display2",
+      "to": "/tables",
+      "children": [
+        {
+          "id": 81,
+          "label": "Data Tables",
+          "to": "/tables/data-tables"
+        },
+        {
+          "id": 82,
+          "label": "Regular Tables",
+          "to": "/tables/regular-tables"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Charts",
+      "icon": "pe-7s-graph",
+      "to": "/charts",
+      "children": [
+        {
+          "id": 91,
+          "label": "ChartJS",
+          "to": "/charts/chartjs"
+        },
+        {
+          "id": 92,
+          "label": "ApexCharts",
+          "to": "/charts/apex-charts"
+        },
+        {
+          "id": 93,
+          "label": "Sparklines",
+          "to": "/charts/sparklines"
+        }
+      ]
+    }
+  ],
+  "userMenu": [
+    {
+      "id": 1,
+      "label": "Profile",
+      "icon": "lnr-user",
+      "to": "/profile"
+    },
+    {
+      "id": 2,
+      "label": "Settings",
+      "icon": "lnr-cog",
+      "to": "/settings"
+    },
+    {
+      "id": 3,
+      "label": "Messages",
+      "icon": "lnr-inbox",
+      "to": "/messages",
+      "badge": 3
+    },
+    {
+      "id": 4,
+      "label": "Logout",
+      "icon": "lnr-exit",
+      "to": "/logout",
+      "divider": true
+    }
+  ],
+  "headerMenu": [
+    {
+      "id": 1,
+      "label": "Actions",
+      "icon": "lnr-book",
+      "action": "actions"
+    },
+    {
+      "id": 2,
+      "label": "Settings",
+      "icon": "lnr-file-empty",
+      "action": "settings"
+    },
+    {
+      "id": 3,
+      "label": "Reports",
+      "icon": "lnr-chart-bars",
+      "action": "reports"
+    }
+  ],
+  "upgradeNav": [
+    {
+      "icon": "pe-7s-diamond",
+      "label": "Upgrade to PRO",
+      "to": "https://dashboardpack.com/theme-details/architectui-dashboard-react-pro?utm_source=free_theme&utm_medium=sidebar&utm_campaign=upgrade_cta&utm_content=menu_item",
+      "external": true
+    }
+  ],
+  "mainNav": [
+    {
+      "icon": "pe-7s-rocket",
+      "label": "Dashboard Example",
+      "to": "/dashboards/crm"
+    }
+  ],
+  "componentsNav": [
+    {
+      "icon": "pe-7s-diamond",
+      "label": "Elements",
+      "content": [
+        {
+          "label": "Standard Buttons",
+          "to": "/elements/buttons-standard"
+        },
+        {
+          "label": "Dropdowns",
+          "to": "/elements/dropdowns"
+        },
+        {
+          "label": "Icons",
+          "to": "/elements/icons"
+        },
+        {
+          "label": "Badges",
+          "to": "/elements/badges-labels"
+        },
+        {
+          "label": "Cards",
+          "to": "/elements/cards"
+        },
+        {
+          "label": "List Groups",
+          "to": "/elements/list-group"
+        },
+        {
+          "label": "Navigation Menus",
+          "to": "/elements/navigation"
+        },
+        {
+          "label": "Utilities",
+          "to": "/elements/utilities"
+        }
+      ]
+    },
+    {
+      "icon": "pe-7s-car",
+      "label": "Components",
+      "content": [
+        {
+          "label": "Tabs",
+          "to": "/components/tabs"
+        },
+        {
+          "label": "Notifications",
+          "to": "/components/notifications"
+        },
+        {
+          "label": "Modals",
+          "to": "/components/modals"
+        },
+        {
+          "label": "Progress Bar",
+          "to": "/components/progress-bar"
+        },
+        {
+          "label": "Tooltips & Popovers",
+          "to": "/components/tooltips-popovers"
+        },
+        {
+          "label": "Carousel",
+          "to": "/components/carousel"
+        },
+        {
+          "label": "Maps",
+          "to": "/components/maps"
+        }
+      ]
+    },
+    {
+      "icon": "pe-7s-display2",
+      "label": "Regular Tables",
+      "to": "/tables/regular-tables"
+    }
+  ],
+  "formsNav": [
+    {
+      "icon": "pe-7s-light",
+      "label": "Controls",
+      "to": "/forms/controls"
+    },
+    {
+      "icon": "pe-7s-eyedropper",
+      "label": "Layouts",
+      "to": "/forms/layouts"
+    },
+    {
+      "icon": "pe-7s-pendrive",
+      "label": "Validation",
+      "to": "/forms/validation"
+    }
+  ],
+  "widgetsNav": [
+    {
+      "icon": "pe-7s-graph2",
+      "label": "Dashboard Boxes",
+      "to": "/widgets/chart-boxes-3"
+    }
+  ],
+  "chartsNav": [
+    {
+      "icon": "pe-7s-graph2",
+      "label": "ChartJS",
+      "to": "/charts/chartjs"
+    }
+  ]
+}

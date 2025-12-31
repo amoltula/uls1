@@ -1,0 +1,163 @@
+{
+  "userProfile": {
+    "name": "Alina Mcloughlin",
+    "displayName": "Alina Mclourd",
+    "role": "VP People Manager",
+    "description": "A short profile description",
+    "avatar": "avatars/1.jpg",
+    "backgroundImage": "dropdown-header/city3.jpg"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "title": "Web Developer",
+      "avatar": "avatars/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "John Rosenberg",
+      "title": "Lead UX Developer",
+      "avatar": "avatars/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Johnathan Phelan",
+      "title": "Backend Engineer",
+      "avatar": "avatars/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "John Smith",
+      "title": "Sales Manager",
+      "avatar": "avatars/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Johnny",
+      "title": "Content Creator",
+      "avatar": "avatars/5.jpg"
+    }
+  ],
+  "roles": [
+    "Admin",
+    "Manager",
+    "Developer",
+    "Engineer",
+    "Designer",
+    "VP",
+    "CEO",
+    "Lead Developer",
+    "Senior Engineer"
+  ],
+  "notifications": {
+    "chat": 8,
+    "messages": 512,
+    "settings": "New",
+    "unread": 45
+  },
+  "menuItems": {
+    "activity": [
+      {
+        "id": "chat",
+        "label": "Chat",
+        "link": "#",
+        "badge": {
+          "text": "8",
+          "className": "rounded-pill bg-info"
+        }
+      },
+      {
+        "id": "recover-password",
+        "label": "Recover Password",
+        "link": "#"
+      }
+    ],
+    "account": [
+      {
+        "id": "settings",
+        "label": "Settings",
+        "link": "#",
+        "badge": {
+          "text": "New",
+          "className": "bg-success"
+        }
+      },
+      {
+        "id": "messages",
+        "label": "Messages",
+        "link": "#",
+        "badge": {
+          "text": "512",
+          "className": "bg-warning"
+        }
+      },
+      {
+        "id": "logs",
+        "label": "Logs",
+        "link": "#"
+      }
+    ]
+  },
+  "gridMenu": [
+    {
+      "id": "message-inbox",
+      "label": "Message Inbox",
+      "icon": "pe-7s-chat",
+      "iconGradient": "icon-gradient bg-amy-crisp",
+      "color": "warning",
+      "bold": false
+    },
+    {
+      "id": "support-tickets",
+      "label": "Support Tickets",
+      "icon": "pe-7s-ticket",
+      "iconGradient": "icon-gradient bg-love-kiss",
+      "color": "danger",
+      "bold": true
+    }
+  ],
+  "toastMessages": {
+    "calendar": "You don't have any new items in your calendar for today! Go out and play!",
+    "success": "Operation completed successfully!",
+    "error": "An error occurred. Please try again.",
+    "warning": "Please review your changes before proceeding."
+  },
+  "badges": {
+    "new": "New",
+    "hot": "Hot",
+    "sale": "Sale",
+    "updated": "Updated"
+  },
+  "tableData": {
+    "firstNames": [
+      "James", "Mary", "John", "Patricia", "Robert", "Jennifer", "Michael", "Linda",
+      "William", "Barbara", "David", "Elizabeth", "Richard", "Susan", "Joseph", "Jessica",
+      "Thomas", "Sarah", "Charles", "Karen", "Emma", "Oliver", "Ava", "Elijah", "Sophia"
+    ],
+    "lastNames": [
+      "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis",
+      "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson",
+      "Thomas", "Taylor", "Moore", "Jackson", "Martin", "Lee", "Thompson", "White", "Harris"
+    ],
+    "cities": [
+      "New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia",
+      "San Antonio", "San Diego", "Dallas", "San Jose", "Austin", "Jacksonville"
+    ]
+  },
+  "dashboardStats": {
+    "totalOrders": 1256,
+    "revenue": "$45,250",
+    "customers": 892,
+    "growth": "+12.5%"
+  },
+  "companyInfo": {
+    "name": "ArchitectUI",
+    "tagline": "Premium React Admin Dashboard",
+    "address": "123 Business St, Suite 100",
+    "city": "San Francisco",
+    "country": "USA",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@architectui.com"
+  }
+}

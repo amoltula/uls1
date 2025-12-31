@@ -1,0 +1,8 @@
+Seperate out data , metadata from all components also Add that in seperate json files and refer same. Also remove/externalize all harcoding into seperate properties or constant file which can be used by docker or application run
+
+
+npm install --legacy-peer-deps
+
+npm run build
+
+npm run dev

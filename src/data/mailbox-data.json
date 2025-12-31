@@ -1,0 +1,258 @@
+{
+  "emails": [
+    {
+      "id": 1,
+      "sender": "Alina Mcloughlin",
+      "avatar": "avatars/1.jpg",
+      "subject": "Nullam dictum felis eu pede mollis pretium.",
+      "preview": "Nullam dictum felis eu pede mollis pretium.",
+      "timestamp": "5 mins ago",
+      "lastSeen": "Last seen online 15 minutes ago",
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": false
+    },
+    {
+      "id": 2,
+      "sender": "John Smith",
+      "avatar": "avatars/2.jpg",
+      "subject": "Mistaken idea of denouncing pleasure",
+      "preview": "But I must explain to you how all this mistaken idea of denouncing pleasure ...",
+      "timestamp": "12 Dec",
+      "lastSeen": null,
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": true
+    },
+    {
+      "id": 3,
+      "sender": "Eliot Huber",
+      "avatar": "avatars/2.jpg",
+      "subject": "Denouncing pleasure and praising pain",
+      "preview": "But I must explain to you how all this mistaken idea of denouncing pleasure ...",
+      "timestamp": "7 Dec",
+      "lastSeen": null,
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": true
+    },
+    {
+      "id": 4,
+      "sender": "Ella-Rose Henry",
+      "avatar": "avatars/4.jpg",
+      "subject": "Layout components for stunning UIs",
+      "preview": "Create stunning UIs for your pages with these layout components...",
+      "timestamp": "7 Dec",
+      "lastSeen": null,
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": true
+    },
+    {
+      "id": 5,
+      "sender": "Vinnie Wagstaff",
+      "avatar": "avatars/5.jpg",
+      "subject": "Orci eget eros faucibus",
+      "preview": "Etiam sit amet orci eget eros faucibus...",
+      "timestamp": "23 Nov",
+      "lastSeen": null,
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": true
+    },
+    {
+      "id": 6,
+      "sender": "Alina Mcloughlin",
+      "avatar": "avatars/8.jpg",
+      "subject": "Nullam dictum felis eu pede mollis pretium.",
+      "preview": "Nullam dictum felis eu pede mollis pretium.",
+      "timestamp": "5 mins ago",
+      "lastSeen": "Last seen online 15 minutes ago",
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": false
+    },
+    {
+      "id": 7,
+      "sender": "Eliot Huber",
+      "avatar": "avatars/9.jpg",
+      "subject": "All this mistaken idea",
+      "preview": "But I must explain to you how all this mistaken idea of denouncing pleasure ...",
+      "timestamp": "12 Dec",
+      "lastSeen": null,
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": true
+    },
+    {
+      "id": 8,
+      "sender": "Eliot Huber",
+      "avatar": "avatars/2.jpg",
+      "subject": "Explaining the mistaken idea",
+      "preview": "But I must explain to you how all this mistaken idea of denouncing pleasure ...",
+      "timestamp": "7 Dec",
+      "lastSeen": null,
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": true
+    },
+    {
+      "id": 9,
+      "sender": "Ella-Rose Henry",
+      "avatar": "avatars/4.jpg",
+      "subject": "Page layout components",
+      "preview": "Create stunning UIs for your pages with these layout components...",
+      "timestamp": "7 Dec",
+      "lastSeen": null,
+      "isStarred": true,
+      "hasTags": true,
+      "isRead": true
+    }
+  ],
+  "onlineFriends": [
+    {
+      "id": 1,
+      "name": "Alina Mcloughlin",
+      "avatar": "avatars/1.jpg",
+      "status": "online",
+      "badgeColor": "bg-primary"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "avatar": "avatars/2.jpg",
+      "status": "focus",
+      "badgeColor": "badge-focus"
+    },
+    {
+      "id": 3,
+      "name": "Vinnie Wagstaff",
+      "avatar": "avatars/3.jpg",
+      "status": "away",
+      "badgeColor": "bg-warning"
+    },
+    {
+      "id": 4,
+      "name": "Ella-Rose Henry",
+      "avatar": "avatars/4.jpg",
+      "status": "busy",
+      "badgeColor": "bg-danger"
+    },
+    {
+      "id": 5,
+      "name": "Eliot Huber",
+      "avatar": "avatars/5.jpg",
+      "status": "available",
+      "badgeColor": "bg-info"
+    },
+    {
+      "id": 6,
+      "name": "Product Manager",
+      "avatar": "avatars/8.jpg",
+      "status": "online",
+      "badgeColor": "bg-success"
+    },
+    {
+      "id": 7,
+      "name": "Team Lead",
+      "avatar": "avatars/9.jpg",
+      "status": "offline",
+      "badgeColor": "bg-secondary"
+    },
+    {
+      "id": 8,
+      "name": "Designer",
+      "avatar": "avatars/10.jpg",
+      "status": "away",
+      "badgeColor": "bg-warning"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Important",
+      "color": "bg-success"
+    },
+    {
+      "id": 2,
+      "name": "Favourites",
+      "color": "bg-danger"
+    },
+    {
+      "id": 3,
+      "name": "Actions",
+      "color": "bg-warning"
+    },
+    {
+      "id": 4,
+      "name": "Other Tags",
+      "color": "bg-primary"
+    }
+  ],
+  "sidebar": {
+    "navigation": [
+      {
+        "id": 1,
+        "label": "Inbox",
+        "icon": "pe-7s-chat",
+        "badge": "8",
+        "badgeColor": "bg-info"
+      },
+      {
+        "id": 2,
+        "label": "Sent Items",
+        "icon": "pe-7s-wallet",
+        "badge": null,
+        "badgeColor": null
+      },
+      {
+        "id": 3,
+        "label": "All Messages",
+        "icon": "pe-7s-config",
+        "badge": "New",
+        "badgeColor": "bg-success"
+      },
+      {
+        "id": 4,
+        "label": "Trash",
+        "icon": "pe-7s-box2",
+        "badge": null,
+        "badgeColor": null
+      },
+      {
+        "id": 5,
+        "label": "Others",
+        "icon": "pe-7s-coffee",
+        "badge": "512",
+        "badgeColor": "bg-warning"
+      }
+    ]
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage all of your options",
+    "backgroundImage": "dropdown-header/city5.jpg",
+    "gridItems": [
+      {
+        "id": 1,
+        "label": "Primary",
+        "icon": "lnr-license"
+      },
+      {
+        "id": 2,
+        "label": "Secondary",
+        "icon": "lnr-map"
+      },
+      {
+        "id": 3,
+        "label": "Success",
+        "icon": "lnr-music-note"
+      },
+      {
+        "id": 4,
+        "label": "Info",
+        "icon": "lnr-heart"
+      }
+    ]
+  }
+}
